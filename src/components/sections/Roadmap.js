@@ -235,7 +235,7 @@ const Roadmap = () => {
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Metaverse Devoloplment"
+            title="Metaverse Development"
             subtext="We will purchase some land in the most popular metaverse and hire a team to start building out multiple concert halls and recording studios for our artist to perform"
           />
           <RoadMapItem
