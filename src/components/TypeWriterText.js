@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Typewriter from "typewriter-effect";
-import Button from './Button';
+import ModalButton from "./ModalButton";
 
 const Title = styled.h2`
   font-size: ${(props) => props.theme.fontxxl};
@@ -101,7 +101,7 @@ const TypeWriterText = () => {
     </Title>
     <SubTitle>Want a Industry plant NFT?</SubTitle>
     <ButtonContainer>
-    <Button text="Mint Now!" link="https://google.com" />
+    <ModalButton text="Mint Now!"/>
     </ButtonContainer>
     </>
   );
