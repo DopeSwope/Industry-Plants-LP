@@ -181,12 +181,12 @@ const scrollTo = (id) => {
           <MenuItem onClick={() => scrollTo('faq')}  >Faq</MenuItem>
           <MenuItem>
             <div className="mobile">
-            <ModalButton text="Connect Wallet" />
+            <ModalButton text="Mint Now!" />
             </div>
           </MenuItem>
         </Menu>
           <div className="desktop">
-          <ModalButton text="Connect Wallet" />
+          <ModalButton text="Mint Now!" />
           </div>
 
       </NavBar>
