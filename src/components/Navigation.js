@@ -1,7 +1,9 @@
 import React,{useState} from 'react'
+
 import styled from 'styled-components'
 import Button from './Button'
 import Logo from './Logo'
+import ModalButton from './ModalButton'
 
 const Section = styled.section`
 width: 100vw;
@@ -145,7 +147,6 @@ transition: all 0.3s ease;
 
 `
 
-
 const Navigation = () => {
 
   const [click, setClick] = useState(false);
@@ -180,12 +181,12 @@ const scrollTo = (id) => {
           <MenuItem onClick={() => scrollTo('faq')}  >Faq</MenuItem>
           <MenuItem>
             <div className="mobile">
-            <Button text="Connect Wallet" link="https://google.com" />
+            <ModalButton text="Connect Wallet" />
             </div>
           </MenuItem>
         </Menu>
           <div className="desktop">
-          <Button text="Connect Wallet" link="https://google.com" />
+          <ModalButton text="Connect Wallet" />
           </div>
 
       </NavBar>
