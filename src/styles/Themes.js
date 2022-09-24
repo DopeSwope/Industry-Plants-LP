@@ -15,7 +15,7 @@ export const light = {
     fontlg:'1.25em',
     fontxl:'2em',
     fontxxl:'3em',
-    fontxxxl:'2em',
+    fontxxxl:'3em',
 
     fontButton:'0.875em',
 
