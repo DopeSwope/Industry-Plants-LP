@@ -77,7 +77,7 @@ const TypeWriterText = () => {
   return (
     <>
         <Title>
-      Its time to Plant, water, and grow new
+      Its time to Plant, water and grow 
       <Typewriter
         options={{
           autoStart: true,
